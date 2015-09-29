@@ -125,7 +125,6 @@ char* leerInstrumento(void){
 	}
 	i_string++;
 	string_retorno[i_string] = '\0';
-	Serial.println(unidad);
 	return string_retorno;
 }
 
